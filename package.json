@@ -1,0 +1,31 @@
+{
+  "name": "@pgrabovets/json-view",
+  "version": "2.7.4",
+  "description": "",
+  "main": "dist/jsonview.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgrabovets/json-view.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "pavel grabovets",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.5.1",
+    "sass": "^1.45.2",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
